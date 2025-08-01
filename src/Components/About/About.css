@@ -1,0 +1,116 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 100vh; /* Full screen height */
+  margin: 0 auto;
+  padding: 40px 20px;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+.about-title {
+  border: solid 5px rebeccapurple;
+  font-size: 1rem;
+  padding: 20px 40px;
+  color: #fff;
+  margin-top: 2rem;
+  border-radius: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.about-sections {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  width: 100%;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.about-left img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.about-right {
+  font-size: 1.5rem;
+  max-width: 600px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+/* ✅ Tablet View */
+@media (max-width: 1024px) {
+  .about {
+    height: auto; /* Allow content to adjust */
+    margin: 0 40px;
+    text-align: center;
+  }
+
+  .about-sections {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .about-right {
+    font-size: 1.3rem;
+    max-width: 90%;
+  }
+
+  .about-left img {
+    width: 18rem;
+    height: 18rem;
+  }
+}
+
+/* ✅ Mobile View */
+@media (max-width: 600px) {
+  .about {
+    margin: 0 20px;
+    padding: 20px 0;
+    height: auto;
+  }
+
+  .about-title {
+    font-size: 1rem;
+    padding: 15px 30px;
+    margin-top: 3rem;
+  }
+
+  .about-sections {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-left img {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .about-right {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding: 0 10px;
+  }
+}
+
+/* Color Classes (Unchanged) */
+.about-right .name {
+  color: #f64409;
+}
+.about-right .college {
+  color: #d8a127;
+}
+.about-right .passion {
+  color: #a35aa5;
+}
+.about-right .skills {
+  color: #3ac53f;
+}

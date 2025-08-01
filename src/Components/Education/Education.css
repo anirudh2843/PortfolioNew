@@ -1,0 +1,94 @@
+.education {
+  min-height: 100vh;
+  padding: 60px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.heading span {
+  color: #b923e1;
+}
+
+.quote {
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+  color: #ccc;
+  font-style: italic;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.box {
+  border: solid 3px rebeccapurple;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(185, 35, 225, 0.4);
+}
+
+.image img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+  color: #ffbd39;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 8px;
+}
+
+.content h4 {
+  font-size: 1rem;
+  color: #b923e1;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .box-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .heading {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .quote {
+    font-size: 1rem;
+  }
+}

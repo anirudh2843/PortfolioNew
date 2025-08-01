@@ -1,0 +1,128 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 5px 100px; */
+    padding: 5px 50px;
+}
+
+.navbar img {
+    height: 100px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-menu li a:hover {
+    color: #B923E1;
+    transform: translateY(-2px);
+}
+
+.nav-contact {
+    padding: 12px 28px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.nav-contact a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-contact:hover {
+    transform: scale(1.05);
+}
+
+/* Hamburger Icon (Hidden by Default) */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: white;
+    transition: 0.3s;
+}
+
+/* ✅ Responsive */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .navbar {
+        margin: 5px 40px;
+    }
+
+    .nav-menu {
+        gap: 30px;
+        font-size: 18px;
+    }
+
+    .nav-contact {
+        font-size: 18px;
+        padding: 10px 24px;
+    }
+
+    .navbar img {
+        height: 80px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .navbar {
+        margin: 0;
+        padding: 15px 20px;
+    }
+
+    /* Show Hamburger */
+    .hamburger {
+        display: flex;
+    }
+
+    /* Hide Menu by Default */
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        background: black;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        border-radius: 10px;
+        width: 200px;
+    }
+
+    /* Show Menu when Open */
+    .nav-menu.open {
+        display: flex;
+    }
+
+    .nav-contact {
+        display: none; /* Hide contact button on mobile for space */
+    }
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #000;
+  color: white;
+  font-family: "outfit";
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Apply this to all sections linked in the navbar */
+#hero {
+  scroll-margin-top: 120px; /* equal or slightly more than navbar height */
+}
+
+#about {
+  scroll-margin-top: -30px;
+}
+#skills{
+  scroll-margin-top: 120px;
+}
+
+#projects{
+  scroll-margin-top: -10px ;
+}

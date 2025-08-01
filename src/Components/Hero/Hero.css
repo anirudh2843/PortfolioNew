@@ -1,0 +1,146 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 85vh;
+  gap: 40px;
+  text-align: left;
+}
+
+.hero-img {
+  height: 30rem;
+  width: 28rem;
+}
+
+span {
+  color: #ffbd39;
+}
+
+.hero-greeting {
+  font-size: 20px;
+}
+
+.hero-sub h1 {
+  font-size: 50px;
+}
+
+.hero-passion {
+  margin: 0.5rem 0;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.hero-passion span {
+  color: #B923E1 !important;
+}
+
+.hero-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-resume {
+  margin: 1rem 0 0.5rem 0;
+}
+
+.resume-btn {
+  background-color: #ffbd39;
+  color: black;
+  padding: 0.75rem 1.5rem;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.resume-btn:hover {
+  transform: scale(1.05);
+}
+
+.social {
+  padding: 10px 20px 0 20px;
+}
+
+.linkedin {
+  margin-right: 2rem;
+  color: white;
+}
+
+.github {
+  color: white;
+}
+
+.social i {
+  font-size: 2rem;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.social i:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+/* ✅ Responsive Styling */
+
+/* Tablet View (<= 1024px) */
+@media (max-width: 1024px) {
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .hero-img {
+    height: 22rem;
+    width: auto;
+  }
+
+  .hero-sub h1 {
+    font-size: 38px;
+  }
+
+  .hero-passion {
+    font-size: 24px;
+  }
+}
+
+/* Mobile View (<= 600px) */
+@media (max-width: 600px) {
+  .hero {
+    height: auto;
+    gap: 25px;
+    padding: 30px 15px;
+  }
+
+  .hero-img {
+    height: 16rem;
+    width: auto;
+  }
+
+  .hero-greeting {
+    font-size: 18px;
+  }
+
+  .hero-sub h1 {
+    font-size: 28px;
+  }
+
+  .hero-passion {
+    font-size: 20px;
+  }
+
+  .social i {
+    font-size: 1.8rem;
+  }
+}
