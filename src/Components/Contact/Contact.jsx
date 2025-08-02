@@ -31,7 +31,7 @@ const Contact = () => {
 
     try {
       setLoading(true);
-      const res = await axios.post("api/mail", values);
+      const res = await axios.post("/api/mail", values);
 
       if (res.status === 200) {
         toast.success("Message sent successfully!");
