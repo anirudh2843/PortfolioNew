@@ -1,5 +1,5 @@
 import "./Hero.css";
-import HeroImg from "../../assets/Hero2.png";
+import HeroImg from "../../assets/hero2.png";
 import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
