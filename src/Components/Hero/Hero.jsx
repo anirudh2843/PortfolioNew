@@ -36,7 +36,7 @@ const Hero = () => {
           <div className="hero-resume">
             <a
               className="resume-link"
-              href="https://drive.google.com/file/d/1xwqDnHNHeyFTnaypOkVncFSdhqOlSuaE/view?usp=sharing"
+              href="https://drive.google.com/file/d/1-GFF9f-UXf-iRCiTg-0xZU0DYmr74bTl/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               download="Anirudh_Resume.pdf"
