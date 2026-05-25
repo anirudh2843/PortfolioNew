@@ -1,4 +1,5 @@
 import "./About.css";
+import React from "react";
 import hero from "../../assets/hero3.png";
 
 const About = () => {
@@ -13,27 +14,29 @@ const About = () => {
         </div>
         <div className="about-right">
           <p>
-            Hi! I'm Anirudh, a final-year B.Tech CSE student at CMR
-            College(CMRCET), passionate about solving real-world problems
-            through technology.
+            I'm a <strong className="college">Full Stack Developer </strong>
+            specializing in MERN Stack, scalable backend systems, and responsive
+            frontend applications.
           </p>
 
           <p>
-            I'm a <strong className="passion">MERN Stack Developer</strong>{" "}
-            skilled in MongoDB, Express.js, React, and Node.js , focused on
-            building efficient and scalable web applications.
+            Experienced in
+            <strong className="college">
+              {" "}
+              Automation Testing, API Testing, and QA workflows{" "}
+            </strong>
+            using Selenium, PyTest, Jira, Jenkins, and Postman.
           </p>
 
           <p>
-            I have a strong foundation in Java and Data Structures & Algorithms
-            (DSA), which helps me write clean and optimized code.
+            Strong in
+            <strong className="college"> Java, DSA </strong>, focused on writing
+            optimized and maintainable code.
           </p>
 
           <p>
-            As an <strong className="skills">AI/ML enthusiast</strong>, I work
-            with tools like{" "}
-            <strong>Python, scikit-learn, TensorFlow, and OpenCV</strong>, and
-            enjoy exploring intelligent systems and real-world ML applications.
+            Passionate about modern AI technologies including AI Agents, LLM
+            Applications, Machine Learning, and intelligent automation systems.
           </p>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from 'react';
 import SkillCard from './SkillCard';
 import './Skills.css';

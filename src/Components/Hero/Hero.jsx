@@ -1,4 +1,5 @@
 import "./Hero.css";
+import React from "react";
 import HeroImg from "../../assets/hero2.png";
 import { Typewriter } from "react-simple-typewriter";
 
@@ -19,9 +20,9 @@ const Hero = () => {
         <p className="hero-passion">
           <Typewriter
             words={[
-              "MERN Full Stack Developer",
-              "AI & ML Enthusiast",
-              "Java Developer",
+              "Full Stack Developer",
+              "AI Engineer",
+              "QA Automation Engineer",
             ]}
             loop={true}
             cursor
@@ -36,7 +37,7 @@ const Hero = () => {
           <div className="hero-resume">
             <a
               className="resume-link"
-              href="https://drive.google.com/file/d/1-GFF9f-UXf-iRCiTg-0xZU0DYmr74bTl/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Q8iXvr8Dh_JXaFPt65wW1CsHGBjKdiYn/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               download="Anirudh_Resume.pdf"

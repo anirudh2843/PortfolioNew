@@ -1,3 +1,4 @@
+import React from "react";
 export const skillData = [
   // Programming
   {
@@ -7,14 +8,47 @@ export const skillData = [
     category: "Programming",
   },
   {
+    name: "Python",
+    image: "https://img.icons8.com/color/48/000000/python--v1.png",
+    category: "Programming",
+  },
+  {
     name: "C++",
     image: "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png",
     category: "Programming",
   },
+  // Testing
   {
-    name: "Python",
-    image: "https://img.icons8.com/color/48/000000/python--v1.png",
-    category: "Programming",
+    name: "Selenium",
+    image: "https://img.icons8.com/color/48/selenium-test-automation.png",
+    category: "Testing",
+  },
+  {
+    name: "PyTest",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/b/ba/Pytest_logo.svg",
+    category: "Testing",
+  },
+  {
+    name: "Jenkins",
+    image: "https://img.icons8.com/color/48/jenkins.png",
+    category: "Testing",
+  },
+  {
+    name: "Postman",
+    image:
+      "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
+    category: "Testing",
+  },
+  {
+    name: "API Testing",
+    image: "https://img.icons8.com/color/48/api-settings.png",
+    category: "Testing",
+  },
+  {
+    name: "Jira",
+    image: "https://img.icons8.com/color/48/jira.png",
+    category: "Testing",
   },
 
   // Frontend
@@ -123,13 +157,13 @@ export const skillData = [
     category: "Tools",
   },
   {
-    name: "Anaconda",
-    image: "https://img.icons8.com/fluency/48/anaconda--v2.png",
+    name: "Docker",
+    image: "https://img.icons8.com/color/48/docker.png",
     category: "Tools",
   },
   {
-    name: "Eclipse IDE",
-    image: "https://img.icons8.com/fluency/48/eclipse.png",
+    name: "Kubernetes",
+    image: "https://img.icons8.com/color/48/kubernetes.png",
     category: "Tools",
   },
 ];

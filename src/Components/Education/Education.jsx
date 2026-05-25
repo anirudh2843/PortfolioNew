@@ -1,4 +1,5 @@
 import "./Education.css";
+import React from "react";
 import btech from "../../assets/btech.png";
 import inter from "../../assets/inter.png";
 
@@ -22,7 +23,7 @@ const Education = () => {
           <div className="content">
             <h3>Bachelor of Technology in CSE</h3>
             <p>CMR College of Engineering & Technology (CMRCET)</p>
-            <h4>2022-2026 | Pursuing</h4>
+            <h4>2022-2026 </h4>
           </div>
         </div>
 
@@ -33,7 +34,7 @@ const Education = () => {
           <div className="content">
             <h3>Intermediate | MPC</h3>
             <p>Sri Chaitanya Junior College</p>
-            <h4>2020-2022 | Completed</h4>
+            <h4>2020-2022 </h4>
           </div>
         </div>
       </div>
