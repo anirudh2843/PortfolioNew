@@ -4,6 +4,7 @@ import qrImg from "../../assets/qrCode.png";
 import mediImg from "../../assets/medi.png";
 import artFlowImg from "../../assets/artFlow.png";
 import Codemate from "../../assets/Codemate.png";
+import presentsir from "../../assets/presentsir.png";
 
 const projectsData = [
   {
@@ -14,6 +15,16 @@ const projectsData = [
     links: {
       visit: "https://codemate-web.onrender.com",
       code: "https://github.com/anirudh2843/CodeMate-web.git",
+    },
+  },
+  {
+    name: "PresentSir",
+    category: "AI Full Stack",
+    techstack: "Python, Streamlit, flask, dlib, resemblzer",
+    image: presentsir,
+    links: {
+      visit: "https://presentsir1.vercel.app",
+      code: "https://github.com/anirudh2843/Presentsir-Frontend.git",
     },
   },
   {
